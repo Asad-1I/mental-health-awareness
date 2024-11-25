@@ -5,22 +5,36 @@
 :root {
     --primary-font: 'Barlow Condensed', sans-serif;
     --secondary-font: 'Lato', sans-serif;
-    --primary-color: #009FFD ; /*Celestial Blue*/
-    --secondary-color: #FFC857 ; /*Golden Yellow*/
-    --tertiary-color: #E0F4F1 ; /*Soft Mint Green*/ 
+    --primary-color: #0486d2 ; /*Celestial Blue*/
+    --secondary-color: #fcd689 ; /*Fair Yellow*/
+    --tertiary-color: #67cdd8 ; /*Soft Mint Green*/ 
     --quaternary-color: #4A4A4A ; /*Charcoal Gray*/
+    --quinary-color: #F5B82E ; /*Golden Yellow*/
     
 
 }
 
 /*Global Styles*/
+body {
+   background-color: var(--secondary-color);
+   font-family: var(--primary-font);
+   color: var(--primary-color);
+}
+
+
+
+
+
 
 /* Header */
 #webpage-title {
-    font-family: var(--primary-font);
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
     text-align: center;
-    color: var(--primary-color);
+    font-size: 2.5rem;
+    text-decoration: none;
+   
+  
     
 }
 
@@ -28,24 +42,74 @@
     text-decoration: none;
 }
 
+#webpage-title a {
+    text-decoration: none;
+}
+
+#webpage-title a:hover {
+    text-decoration: none;
+    
+}
+
 /* Navbar */
 #navbar {
     font-family: var(--primary-font);
-    margin-top: 3rem;
     margin-bottom: 3rem;
-    background-color: var(--secondary-color);
+   
+    background-color: var(--tertiary-color);
+    
+    
 }
 
-#lightbulb {
-    margin-bottom: 1.5rem;
+#navbar a {
+    color: var(--secondary-color);
+
 }
+
+#navbar a:hover{
+    color: var(--quaternary-color);
+    transition: color 0.5s ease-in-out;
+}
+
+
 /* Main content */
 
 /* Hero */
 
 #hero {
-    height: 600px;
+    height: 400px;
     width: 100%;
     background: url("../images/hero.png") no-repeat center center/cover;
     margin-top: 3rem;
+}
+
+/* Card group*/
+#card-style  p  {
+    color: var(--primary-color);
+}
+
+#card-style h5  {
+    color: var(--primary-color);
+    
+}
+
+/* Footer */
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    background-color: var(--tertiary-color);
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: var(--secondary-color);
+}
+
+#social-networks i:hover {
+    color: var(--quaternary-color);
+    transition: color 0.5s ease-in-out;
 }
