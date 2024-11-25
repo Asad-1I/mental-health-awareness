@@ -27,29 +27,30 @@ body {
 
 
 /* Header */
+
 #webpage-title {
     margin-bottom: 3rem;
     margin-top: 3rem;
     text-align: center;
     font-size: 2.5rem;
     text-decoration: none;
-   
-  
-    
 }
 
 #webpage-title a {
      text-decoration: none;
+
      
      
 }
+
+
 
 /* Navbar */
 #navbar {
     font-family: var(--primary-font);
     margin-bottom: 3rem;
-   
     background-color: var(--tertiary-color);
+    
     
     
 }
@@ -67,14 +68,22 @@ body {
 
 /* Main content */
 
-/* Hero */
 
-#hero {
-    height: 400px;
+
+
+
+    
+    /* Hero Section */
+.hero {
+    height: 50vh;  
     width: 100%;
-    background: url("../images/hero.png") no-repeat center center/cover;
-    margin-top: 3rem;
+    background: url(../images/hero-resized.png) no-repeat center center/cover;
+   
+    
 }
+
+    
+
 
 /* Card group*/
 #card-style  p  {
@@ -85,6 +94,8 @@ body {
     color: var(--primary-color);
     
 }
+
+
 
 
 /* Footer */
