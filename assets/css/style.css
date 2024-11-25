@@ -16,9 +16,29 @@
 /*Global Styles*/
 
 /* Header */
+#webpage-title {
+    font-family: var(--primary-font);
+    margin-bottom: 2rem;
+    text-align: center;
+    color: var(--primary-color);
+    
+}
+
+#webpage-title:hover {
+    text-decoration: none;
+}
 
 /* Navbar */
+#navbar {
+    font-family: var(--primary-font);
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    background-color: var(--secondary-color);
+}
 
+#lightbulb {
+    margin-bottom: 1.5rem;
+}
 /* Main content */
 
 /* Hero */
@@ -27,4 +47,5 @@
     height: 600px;
     width: 100%;
     background: url("../images/hero.png") no-repeat center center/cover;
+    margin-top: 3rem;
 }
