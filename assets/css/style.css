@@ -69,6 +69,11 @@ body {
 
 
 /* Main content */
+/* To apply primary color to about-us text*/
+#mainid *
+{
+    color: var(--primary-color);
+}
 
 
 
