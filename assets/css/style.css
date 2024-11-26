@@ -22,6 +22,10 @@ body {
 }
 
 
+.btn-primary {
+    color: white !important;
+}
+
 
 
 
@@ -88,6 +92,13 @@ body {
     color: white;
 }
 
+/* To apply primary color to thank you*/
+.text-center *{
+    color: var(--primary-color);
+}
+
+
+
 /* Border color for contact form*/
 .shadow {
     border-color: var(--tertiary-color);
@@ -131,6 +142,7 @@ body {
     justify-content: space-evenly;
     list-style-type: none;
     background-color: var(--tertiary-color);
+   
 }
 
 #social-networks i {
