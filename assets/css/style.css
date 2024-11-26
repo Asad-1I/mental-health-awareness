@@ -75,7 +75,20 @@ body {
     color: var(--primary-color);
 }
 
+.my-5 *{
+    color: var(--primary-color);
 
+}
+
+.d-grid *{
+    color: white;
+}
+
+/* Border color for contact form*/
+.shadow {
+    border-color: var(--tertiary-color);
+    border-style: solid;
+}
 
 
 
