@@ -120,3 +120,17 @@ body {
     color: var(--quaternary-color);
     transition: color 0.5s ease-in-out;
 }
+
+/* Media Queries */
+/*As theres no hover effect on touchscreen this media query changes navbar text color to a darker colour*/
+@media screen and (max-width: 576px) {
+    #navbar a {
+        color: var(--quaternary-color);
+    }
+}
+/*As theres no hover effect on touchscreen this media query changes navbar text color to a darker colour*/
+@media screen and (max-width: 768px) {
+    #navbar a {
+        color: var(--quaternary-color);
+    }
+}
