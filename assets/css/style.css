@@ -19,7 +19,9 @@ body {
    background-color: var(--secondary-color);
    font-family: var(--primary-font);
    color: var(--primary-color);
+  
 }
+
 
 
 .btn-primary {
@@ -92,10 +94,11 @@ body {
     color: white;
 }
 
-/* To apply primary color to thank you*/
+/* thank you.html*/
 .text-center *{
     color: var(--primary-color);
 }
+
 
 
 
@@ -137,7 +140,7 @@ body {
 
 #social-networks {
     text-align: center;
-    padding: 20px 0;
+    padding: 50px 0;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
@@ -146,7 +149,7 @@ body {
 }
 
 #social-networks i {
-    font-size: 160%;
+    font-size: 200%;
     padding: 5%;
     color: var(--secondary-color);
 }
