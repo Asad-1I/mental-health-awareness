@@ -77,8 +77,8 @@ body {
     
     /* Hero Section */
 .hero {
-    height: 50vh;  
-    width: 100%;
+    height: 95vh;  
+    width: 100vw;
     background: url(../images/hero-resized.png) no-repeat center center/cover;
    
     
@@ -101,6 +101,7 @@ body {
 
 
 /* Footer */
+
 #social-networks {
     text-align: center;
     padding: 20px 0;
@@ -122,6 +123,22 @@ body {
 }
 
 /* Media Queries */
+
+/*As theres no hover effect on touchscreen this media query changes navbar text color to a darker colour*/
+@media screen and (max-width: 768px) {
+    #navbar a {
+        color: var(--quaternary-color);
+    }
+
+    #social-networks i {
+        color: var(--quaternary-color);
+    }
+
+    .hero {
+        height: 40vh;
+    }
+}
+
 /*As theres no hover effect on touchscreen this media query changes navbar text color to a darker colour*/
 @media screen and (max-width: 576px) {
     #navbar a {
@@ -131,14 +148,8 @@ body {
     #social-networks i {
         color: var(--quaternary-color);
     }
-}
-/*As theres no hover effect on touchscreen this media query changes navbar text color to a darker colour*/
-@media screen and (max-width: 768px) {
-    #navbar a {
-        color: var(--quaternary-color);
-    }
 
-    #social-networks i {
-        color: var(--quaternary-color);
+    .hero {
+        height: 27vh;
     }
 }
