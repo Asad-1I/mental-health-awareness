@@ -67,6 +67,10 @@ body {
     transition: color 0.5s ease-in-out;
 }
 
+.active {
+    color: var(--quaternary-color) !important;
+}
+
 
 /* Main content */
 /* To apply primary color to about-us text*/
