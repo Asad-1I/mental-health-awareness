@@ -16,7 +16,7 @@
 
 Create a welcoming webpage that provides basic mental health information and ability to contact those who are experienced with mental health awareness.
 
-## (UX) User Experiance:
+## (UX) User Experience:
 
 Mindful of Mental Health does not  have a specific target demographic, It is aimed at anyone and everyone. The aim of the site is to provide basic mental health awareness information in a simplistic way.
 
