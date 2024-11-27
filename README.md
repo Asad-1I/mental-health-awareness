@@ -1,131 +1,143 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Mindful of Mental Health | Asad Iqbal
 
-Welcome USER_NAME,
+## Code Institute - Individual Formative Assignment
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+### HTML/CSS Essentials/Bootstrap - Static Front-End Website
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **June 18, 2024**
+![Site example on multiple devices.](assets/images/readme-images/AmIresponsive.png)
 
-## Gitpod Reminders
+[Click Here to view the Live Project.](https://asad-1i.github.io/mental-health-awareness/)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+[Click here to view the Repository.](https://github.com/Asad-1I/mental-health-awareness)
 
-`python3 -m http.server`
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
+## The Why:
 
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
+Create a welcoming webpage that provides basic mental health information and ability to contact those who are experienced with mental health awareness.
 
-A blue button should appear to click: _Make Public_,
+## (UX) User Experiance:
 
-Another blue button should appear to click: _Open Browser_.
+Mindful of Mental Health does not  have a specific target demographic, It is aimed at anyone and everyone. The aim of the site is to provide basic mental health awareness information in a simplistic way.
 
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- ### The User
 
-To log into the Heroku toolbelt CLI:
+  - #### First Time User:
+    - To be able to easily navigate the website and the content.
+    - To have a better understanding on mental health and the positives of awareness.
+  - #### Returning User:
+    - To instantly know/remember how to navigate.
+    - Find the information they require within as few actions as possible.
+  - #### Issues for Users to overcome:
+    - Fact checked information to provide trustworthy content.
+    - Ease of navigation.
+    - Fast loading pages to make the site available to everyone.
+    - Responsive design so the site can be viewed on all devices.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### Future ideas:
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
+- Implement a newsletter in the form a modal in the top right in the navbar.
+- To apply content to additional resources HTML file.
+- Add a Blog/ community post area to increase interactions.
 
-### Connecting your Mongo database
+## Design:
 
-- **Connect to Mongo CLI on a IDE**
-- navigate to your MongoDB Clusters Sandbox
-- click **"Connect"** button
-- select **"Connect with the MongoDB shell"**
-- select **"I have the mongo shell installed"**
-- choose **mongosh (2.0 or later)** for : **"Select your mongo shell version"**
-- choose option: **"Run your connection string in your command line"**
-- in the terminal, paste the copied code `mongo "mongodb+srv://<CLUSTER-NAME>.mongodb.net/<DBname>" --apiVersion 1 --username <USERNAME>`
-  - replace all `<angle-bracket>` keys with your own data
-- enter password _(will not echo **\*\*\*\*** on screen)_
+### Design Brief:
 
-------
+For Mindful of Mental Health the idea is to provide intuitive website to read information on how mental health and how to implement the positives of mental health awareness. The  design  for the site is to be simple , using soft colours and typography. The site's user demographic is varied so the site has to appeal to everyone. The site will have a simplistic, calming effect.
 
-## Release History
+### Typography:
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+As per the design brief I want the user to have a very friendly experience to achieve this I used a font from the Google Fonts library. The Font used [Barlow-Condensed] (https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap')  .
 
-**June 18, 2024,** Add Mongo back into template
+### Colours:
 
-**June 14, 2024,** Temporarily remove Mongo until the key issue is resolved
+To keep the colours inline with the design brief and with the help of [Coolors](https://coolors.co/palettes/popular/yellow) Below you will see the colours used:
 
-**May 28 2024:** Fix Mongo and Links installs
+- #0486d2 - Celestial Blue
+- #fcd689 - Fair Yellow
+- #67cdd8 - Soft Mint Green 
+ - #4A4A4A - Charcoal Gray
 
-**April 26 2024:** Update node version to 16
+### Images:
 
-**September 20 2023:** Update Python version to 3.9.17.
+All Images used within this site have been provided with [Pexels](https://pexels.com) a royalty free website and [copilot](https://copilot.microsoft.com/).
+all images have been compressed with the use of [adobe express](https://www.adobe.com/express/feature/image/resize)
+The Favicon used for the site was taken from [favicon.io](https://favicon.io/emoji-favicons/left-speech-bubble/)
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+### Wireframes:
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+The basic structure of Mindful of Mental Health and then with the use of the software [BALSAMIQ](https://balsamiq.com/).
+![Wireframe for desktop.](assets/images/readme-images/wireframe-desktop-index-png.png)
+Desktop view
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+![Wireframe for Mobile.](assets/images/readme-images/wireframe-mobile-index-html-png.png)
+Mobile view where elements are stacked on each other and a collapsable menu icon is shown
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+## Technologies:
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+### Languages used:
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+- [HTML](https://en.wikipedia.org/wiki/HTML5)
+- [CSS](https://en.wikipedia.org/wiki/CSS)
+- [MARKDOWN](https://en.wikipedia.org/wiki/Markdown)
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+## Testing:
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+For testing I will use multiple resources:
+1. [W3 Markup Validation Service](https://validator.w3.org/)
+2. [W3 CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+3. [Chrome Dev Tools - Lighthouse](https://developers.google.com/web/tools/lighthouse/)
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+Below you will see screenshots of the testing
+![HTML validator for index.html](assets/images/readme-images/HTML-validator-index-html-png.png)
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+![css validator for index.html no errors](assets/images/readme-images/css-validator-index-html-no-errors-png.png)
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+![css validator for index.html warnings](assets/images/readme-images/css-validator-index-html-warnings-png.png)
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+Due to the nature of the warnings I was unable to remove them
 
-------
+![Chrome dev tools lighthouse analysis](assets/images/readme-images/Lighthouse-for-deployed-project-png.png)
 
-## FAQ about the uptime script
+The majority of the reasons for the poor performance score of which I had direct control of were due to using PNG as oppossed to WebP format as per lighthouse suggestion. Another issue with the images were the sizing. Lighthouses suggests resizing the images. Other performances issues were due to third party issues.
 
-**Why have you added this script?**
+![Chrome dev tools lighthouse analysis img elements](assets/images/readme-images/Lighthouse-image-elements-suggestion-png.png)
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+Lighthouse showed me that I did not set specific width and heights for the images.
 
-**How will this affect me?**
+![Chrome dev tools lighthouse analysis third party](assets/images/readme-images/Lighthouse-third-party-JS-png.png)
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+Many of the performance issues were due to third parties, e.g. the Javascript used.
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+### Manual Testing Results:
 
-**So….?**
+Manual Testing of the deployed website showed no issues
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+### Bugs & Fixes:
 
-**Can I opt out?**
+- On all screen sizes the cards in main tag and their subsequent content would not display. _fixed_
+  - _Selected the lines of code I wanted displayed and input them into copilot chat on VS code, copilot corrected the code by implementing the closing quotation mark in the class attribute of the main tag._
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+## Deployment:
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+### Deployment to GitHub Pages
 
-**Anything more?**
+1. Visit [Github](www.github.com).
+2. Navigate to the [asad-1i/mental-health-awareness](https://github.com/Asad-1I/mental-health-awareness) Repository.
+3. Click settings along the top options bar.
+4. Click pages found at the bottom of the left hand navigation bar.
+5. In the 'Source' section, click the dropdown menu that is labeled 'none' and select "Main".
+6. Click Save.
+7. Page will auto refresh and provide you with a link to the Live GitHub Page for this repository.
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
 
----
 
-Happy coding!
+## Credits:
+
+1. [Copilot](https://copilot.microsoft.com/) - Initial Content for the files which I then reworded/modified
+2. [Betterup](https://www.betterup.com/blog/mental-health-awareness) - Aiding the content production and inspiring aspects of the Website
+
