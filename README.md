@@ -122,6 +122,9 @@ Manual Testing of the deployed website showed no issues
 - On all screen sizes the cards in main tag and their subsequent content would not display. _fixed_
   - _Selected the lines of code I wanted displayed and input them into copilot chat on VS code, copilot corrected the code by implementing the closing quotation mark in the class attribute of the main tag._
   ![copilot debug](assets/images/readme-images/copilot%20-code-%20issue.png)
+  - On all medium screen size,ipad mini, on the thankyou-html file the footer would not match the footers of the other files, as the other files no matter the screens size all displayed the footer the same. _unresolved_
+  - _Attempted adjust aspects of the box-model to no avial._
+  ![thankyou.html footer on Ipad mini/medium screens size accessed by completing the contact form on the contact-us file](assets/images/readme-images/thankyou-html-footer-bug-unresolved.png)
 
 
 ## Deployment:
@@ -142,4 +145,4 @@ Manual Testing of the deployed website showed no issues
 
 1. [Copilot](https://copilot.microsoft.com/) - Initial Content for the files which I then reworded/modified
 2. [Betterup](https://www.betterup.com/blog/mental-health-awareness) - Aiding the content production and inspiring aspects of the Website
-
+3. [Online-convert](https://image.online-convert.com/convert-to-png) - Converting images
