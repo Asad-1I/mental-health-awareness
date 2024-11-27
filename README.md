@@ -1,4 +1,4 @@
-# Mindful of Mental Health | Asad Iqbal
+# Mental Health Awareness ,Mindful of Mental Health is website name but not the project, | Asad Iqbal
 
 ## Code Institute - Individual Formative Assignment
 
@@ -39,6 +39,7 @@ Mindful of Mental Health does not  have a specific target demographic, It is aim
 - Implement a newsletter in the form a modal in the top right in the navbar.
 - To apply content to additional resources HTML file.
 - Add a Blog/ community post area to increase interactions.
+- Replace home with icon of a home on mobile devices
 
 ## Design:
 
@@ -138,6 +139,13 @@ Manual Testing of the deployed website showed no issues
 5. In the 'Source' section, click the dropdown menu that is labeled 'none' and select "Main".
 6. Click Save.
 7. Page will auto refresh and provide you with a link to the Live GitHub Page for this repository.
+
+## Improvements:
+1. Use images more appropriate in size and the type of image file
+2. Have proof of manual deployment via spreadsheet
+3. Increase the amount of call to actions as website is quite passive for the user
+
+
 
 
 
