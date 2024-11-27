@@ -121,6 +121,8 @@ Manual Testing of the deployed website showed no issues
 
 - On all screen sizes the cards in main tag and their subsequent content would not display. _fixed_
   - _Selected the lines of code I wanted displayed and input them into copilot chat on VS code, copilot corrected the code by implementing the closing quotation mark in the class attribute of the main tag._
+  ![copilot debug](assets/images/readme-images/copilot%20-code-%20issue.png)
+
 
 ## Deployment:
 
